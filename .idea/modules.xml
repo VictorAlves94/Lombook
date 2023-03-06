@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/livelombok/livelombok.iml" filepath="$PROJECT_DIR$/livelombok/livelombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/livelombok (1).iml" filepath="$PROJECT_DIR$/.idea/livelombok (1).iml" />
+    </modules>
+  </component>
+</project>
