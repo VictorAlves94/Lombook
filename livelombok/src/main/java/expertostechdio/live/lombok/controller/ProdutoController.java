@@ -25,8 +25,8 @@ public class ProdutoController {
         return ResponseEntity.ok(repository.findAll());
     }
 
-    @PostMapping("/salvar")
-   // @RequestMapping(value = "/salvar", method = RequestMethod.POST)
+  //  @PostMapping("/salvar")
+    @RequestMapping(value = "/salvar", method = RequestMethod.POST)
     public ResponseEntity<ProdutoModel> salvar(@RequestBody ProdutoModel produto) {
         return ResponseEntity.ok(repository.save(produto));
 

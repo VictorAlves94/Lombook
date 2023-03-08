@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.util.Objects;
 @NoArgsConstructor
-@Entity(name="produto")
+@Entity(name="produtoModel")
 public class ProdutoModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,6 +22,9 @@ public class ProdutoModel {
         this.valor = valor;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public ProdutoModel(Integer id) {
         this.id = id;
